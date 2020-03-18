@@ -1,0 +1,47 @@
+
+body h1{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgb(7, 4, 7);
+}
+body h3{
+    font-size: 1em;
+    color: rgb(7, 4, 7);
+}
+
+
+.box-form{
+    
+    width:30%;
+    margin: 20vh auto auto 5%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+.User{
+    background-color: rgba(230, 223, 223, 0.493);
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.txt{
+    text-align: center;
+}
+.ban{
+    width: 100%;
+    height: 100vh;
+    margin-left: 6%;
+}
+#recuperar{
+    float: right;
+}
+#open{
+    margin: 10% auto auto 12%;
+    padding: 10px;
+}
+body p{
+    margin:2vh auto auto 10%
+}
+#cad{
+    float: right;
+}

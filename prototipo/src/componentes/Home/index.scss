@@ -1,0 +1,47 @@
+@import '~react-md/src/scss/react-md';
+ 
+$md-primary-color: $md-teal-500;
+$md-secondary-color: $md-lime-a-400;
+ 
+@include react-md-everything;
+.link {
+    color: $md-primary-color;
+    display: inline-block;
+    text-decoration: none;
+    transition: color $md-transition-time;
+   
+    &:visited {
+      color: get-swatch($md-primary-color, 200, true);
+    }
+   
+    &:hover {
+      color: get-color('text', $md-light-theme);
+      text-decoration: underline;
+    }
+  }
+
+  .box-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAAC30;
+      width: 100%;
+     // height: 2em;
+      padding: 6px;
+  }
+
+  #Cadastre{
+    margin-right: 5px;
+    background-color:#ffffff;
+      color: #000000;
+  }
+  #login{
+      background-color:#ffffff;
+      color: #000000;
+        
+  }
+  #login:hover{
+    color:#FAAC30;
+}
+.bn{
+    width:100%;
+}
