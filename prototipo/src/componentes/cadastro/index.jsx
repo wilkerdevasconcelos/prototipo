@@ -3,7 +3,7 @@ import {Button, TextField} from 'react-md'
  import './index.scss'
 
 
-const FormCadastro = () => {
+const Cadastro = () => {
 
     const[teste, setTeste] = useState(false)
 
@@ -73,4 +73,4 @@ const FormCadastro = () => {
 }
 
 
-export default FormCadastro
+export default Cadastro
